@@ -16,6 +16,7 @@
     "@types/node": "^20.4.5",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
+    "prettier": "^3.0.1",
     "typescript": "^5.1.6",
     "xo": "^0.55.0"
   },
@@ -24,6 +25,10 @@
     "meow": "^12.0.1",
     "natural-orderby": "^3.0.2",
     "p-throttle": "^5.1.0"
+  },
+  "lint-staged": {
+    "*.ts": "xo --fix",
+    "*.json": "prettier --write"
   },
   "xo": {}
 }
