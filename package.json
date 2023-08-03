@@ -1,0 +1,26 @@
+{
+  "name": "jpg-to-pdf-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "xo"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@sindresorhus/tsconfig": "^3.0.1",
+    "@types/node": "^20.4.5",
+    "typescript": "^5.1.6",
+    "xo": "^0.55.0"
+  },
+  "dependencies": {
+    "execa": "^7.2.0",
+    "meow": "^12.0.1",
+    "natural-orderby": "^3.0.2",
+    "p-throttle": "^5.1.0"
+  },
+  "xo": {}
+}
