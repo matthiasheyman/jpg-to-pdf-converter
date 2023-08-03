@@ -6,13 +6,16 @@
   "type": "module",
   "scripts": {
     "start": "tsc && node dist/index.js",
-    "test": "xo"
+    "test": "xo",
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@sindresorhus/tsconfig": "^3.0.1",
     "@types/node": "^20.4.5",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
     "typescript": "^5.1.6",
     "xo": "^0.55.0"
   },
